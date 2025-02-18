@@ -13,7 +13,8 @@ function App() {
       setError(null); // Reset the error message before a new fetch
 
       try {
-        const response = await axios.get('http://localhost:5000/api/apod');
+        // Use the Heroku backend API URL here
+        const response = await axios.get('https://nasa-backend-ananya-8a0f587afdfc.herokuapp.com/api/apod');
         setApodData(response.data); // Save fetched data to state
       } catch (error) {
         setError('Unable to load image. Please try again later.'); // Display error if the fetch fails
