@@ -8,9 +8,6 @@ h2 {
 }
 
 img {
-  margin: 5px;
-  border-radius: 5px;
-  max-width: 20%; 
-  height: auto; 
-  max-height: 500px;
+  margin: 10px;
+  border-radius: 10px;
 }
