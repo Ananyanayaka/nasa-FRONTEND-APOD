@@ -1,4 +1,4 @@
-# NASA Space Data Application
+# NASA Space Data Application APOD
 
 ## Overview
  This project is a full-stack web application that uses NASA's Open APIs to showcase space-related data, specifically the Astronomy Picture of the Day (APOD). It features a React frontend and a Node.js backend that are already hosted and accessible via live links.
