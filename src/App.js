@@ -45,7 +45,7 @@ function App() {
         {apodData && !loading && !error && (
           <>
             <h3>{apodData.title}</h3>
-            <img src={apodData.url} alt={apodData.title} style={{ width: '100%', height: 'auto' }} />
+            <img src={apodData.url} alt={apodData.title} style={{ width: '75%', height: 'auto' }} />
             <p>{apodData.explanation}</p>
           </>
         )}
