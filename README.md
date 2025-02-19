@@ -5,12 +5,6 @@
 
 ---
 
-## Demo
-
-- **Frontend (React)**: [NASA Space Data Frontend](https://nasa-frontend-apod.vercel.app/)
-- **Backend (Node.js)**: [NASA Space Data Backend](https://nasa-backend-ananya-8a0f587afdfc.herokuapp.com/)
----
-
 ## Features
 
 - Displays the **Astronomy Picture of the Day (APOD)** along with its title and explanation.
@@ -42,37 +36,6 @@
 - **Web1 (APOD App)**:
   - **Backend**: [APOD Backend GitHub Repository](https://github.com/Ananyanayaka/nasa-app-Backend-APOD)
 ---
-## Getting Started
-
-### Prerequisites
-- Node.js installed (version 14 or higher recommended)
-- npm or yarn as your package manager
-
-### Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone <repo-url>
-    cd <repo-directory>
-    ```
-
-2. Install dependencies:
-
-    ```bash
-    npm install
-    ```
-
-3. Run the app locally:
-
-    ```bash
-    npm start
-    ```
-
-    Your app should now be live on `http://localhost:3000`.
-
----
-
 
 ## How to Use
 
