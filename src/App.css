@@ -1,13 +1,45 @@
 .App {
   text-align: center;
   padding: 20px;
+  background-color: #1e2a47; /* Dark Blue background color */
+  color: white; /* Text color set to white for contrast */
+  min-height: 100vh; /* Ensures the background color covers the whole viewport */
 }
 
+/* Styling for the NASA Space Data title in a box */
+h1 {
+  display: inline-block;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 15px;
+  width: fit-content;
+  margin: 0 auto; /* Center the title horizontally */
+  margin-top: 40px; /* Add space above the title */
+}
+
+/* Styling for the Astronomy Picture of the Day title */
 h2 {
   margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
+/* Image styling */
 img {
   margin: 10px;
   border-radius: 10px;
 }
+
+/* Paragraph styling */
+p {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Background to make text more readable */
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 80%;
+}
+
