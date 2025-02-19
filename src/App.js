@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="title-box">NASA Space Data</h1>
+      <h1>NASA Space Data</h1>
 
       {/* APOD (Astronomy Picture of the Day) */}
       <div>
