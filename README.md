@@ -46,9 +46,55 @@ The frontend and backend are already hosted and running. You can visit the follo
 
 No setup is required. Simply visit the live demo links to view the **Astronomy Picture of the Day (APOD)** along with its title and explanation.
 
-## API Key Setup
 
-The backend makes requests to NASA's API to fetch the Astronomy Picture of the Day (APOD). No need to configure an API key on your local machine, as the backend has been set up to use the key.
+## Frontend Setup (React)
+
+If you want to run the frontend locally:
+
+### 1. Clone the repository
+
+Clone the frontend repository from GitHub:
+
+```bash
+git clone https://github.com/Ananyanayaka/nasa-FRONTEND-APOD.git
+cd nasa-FRONTEND-APOD
+```
+
+### 2. Install dependencies
+
+Install the necessary dependencies using `npm` (Node Package Manager):
+
+```bash
+npm install
+```
+
+### 3. Set up the Backend
+
+If you want to run the backend locally see the local set up of backend at 
+ **Backend**: [APOD Backend GitHub Repository](https://github.com/Ananyanayaka/nasa-app-Backend-APOD)
+
+- Launch the backend server locally:
+
+
+### 4. Set up the Frontend to Connect to the Backend
+
+- In your frontend project Repository src/app.js, replace the link of the port that backend is running on, usually the  port `5000` by default (or the port you specify)
+- or u can also use the already launched backend link on Heraku(its updated in code already)
+
+
+### 5. Start the Frontend
+
+Now, start the frontend React development server:
+
+```bash
+npm start
+```
+- The app will be available at `http://localhost:3000` in your browser
+
+---
+## API Key Setup
+- The backend makes requests to NASA's API to fetch the Astronomy Picture of the Day (APOD). No need to configure an API key on your local machine, as the backend has been set up to use the key.!
+
 ---
 
 ## Acknowledgements
@@ -57,4 +103,11 @@ The backend makes requests to NASA's API to fetch the Astronomy Picture of the D
 - Vercel and Heroku for making deployment easy.
 
 ---
+## How the Application Works
+
+1. The **React frontend** communicates with the **Node.js backend** via API requests to fetch **Astronomy Picture of the Day (APOD)** data.
+2. The backend fetches the data from NASA's public API (https://api.nasa.gov/) and returns it to the frontend.
+3. The frontend then displays the APOD, its title, and an explanation.
+
+
 
