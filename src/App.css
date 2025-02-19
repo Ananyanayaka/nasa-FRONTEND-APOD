@@ -1,13 +1,47 @@
 .App {
   text-align: center;
   padding: 20px;
+  background-color: #1e2a47; /* Dark Blue background color */
+  color: white; /* Set text color to white to contrast with dark background */
+  min-height: 100vh; /* Ensure the background color covers the whole viewport */
+}
+
+h1 {
+  margin: 0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
+  color: white;
+  font-size: 2rem;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 0 auto; /* Center the header horizontally */
 }
 
 h2 {
   margin-top: 20px;
 }
 
-img {
-  margin: 10px;
-  border-radius: 10px;
+h3 {
+  margin-top: 20px;
 }
+
+.title-box {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the title */
+  color: white;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+p {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Background to make text more readable */
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 80%;
+}
+
+
