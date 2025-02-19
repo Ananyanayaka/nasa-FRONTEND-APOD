@@ -10,7 +10,7 @@ h2 {
 img {
   margin: 8px;
   border-radius: 8px;
-  max-width: 100%; 
+  max-width: 80%; 
   height: auto; 
   max-height: 500px;
 }
