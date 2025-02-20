@@ -2,30 +2,30 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 function App() {
-  const [apodData, setApodData] = useState(null); // State for storing APOD data
-  const [loading, setLoading] = useState(false); // State for loading state
-  const [error, setError] = useState(null); // State for storing error message
+  const [apodData, setApodData] = useState(null); 
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null); 
 
-  // Fetch Astronomy Picture of the Day (APOD)
+
   useEffect(() => {
     async function fetchApod() {
       setLoading(true);
-      setError(null); // Reset the error message before a new fetch
+      setError(null); 
 
       try {
         // Use the Heroku backend API URL here
         const response = await axios.get('https://nasa-backend-ananya-8a0f587afdfc.herokuapp.com/api/apod');
-        setApodData(response.data); // Save fetched data to state
+        setApodData(response.data); 
       } catch (error) {
-        setError('Unable to load image. Please try again later.'); // Display error if the fetch fails
+        setError('Unable to load image. Please try again later.'); 
         console.error('Error fetching APOD data:', error);
       } finally {
-        setLoading(false); // Set loading to false after the fetch attempt
+        setLoading(false);
       }
     }
 
-    fetchApod(); // Call the function to fetch APOD data when the component mounts
-  }, []); // Empty dependency array ensures this runs only once when the component mounts
+    fetchApod(); 
+  }, []); 
 
   return (
     <div className="App">
