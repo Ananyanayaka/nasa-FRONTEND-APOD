@@ -78,7 +78,7 @@ If you want to run the backend locally see the local set up of backend at
 
 ### 4. Set up the Frontend to Connect to the Backend
 
-- In your frontend project Repository src/app.js, replace the link of the port that backend is running on, usually the  port `5000` by default (or the port you specify)
+- In your frontend project Repository src/app.js, replace the link of the port that backend is running on, usually the  port "5000 " by default (or the port you specify)
 - or u can also use the already launched backend link on Heraku(its updated in code already)
 
 
@@ -89,7 +89,7 @@ Now, start the frontend React development server:
 ```bash
 npm start
 ```
-- The app will be available at `http://localhost:3000` in your browser
+- The app will be available at "http://localhost:3000" in your browser
 
 ---
 ## API Key Setup
