@@ -13,7 +13,7 @@ function App() {
       setError(null); 
 
       try {
-        // Use the Heroku backend API URL here
+       
         const response = await axios.get('https://nasa-backend-ananya-8a0f587afdfc.herokuapp.com/api/apod');
         setApodData(response.data); 
       } catch (error) {
